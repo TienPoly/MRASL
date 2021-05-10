@@ -10,12 +10,15 @@ description: >-
 
 ## Preliminaries
 
-The before-you-start-checklist:
+### Is the floor well covered?
 
-* Is the floor well covered? \(Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!\)
-* Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
+Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!
 
-If you answered YES to all the questions above, you are now free to proceed to the next step.
+### Power on
+
+* Asus router \(WiFi network MRASL\)
+* Netgear switch \(2 TP-Link Wireless Access Points\)
+* 2 Trendnet switches \(Vicon cameras\)
 
 ## Vicon setup
 
