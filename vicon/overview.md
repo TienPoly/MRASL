@@ -12,5 +12,8 @@ The [VICON](https://www.vicon.com/) motion capture system is made of a network o
 * VICON Tracker 3.4 \(software\)
 * [MRASL's Local Area Network](https://mrasl.gitbooks.io/documentation/content/Equipment/Networking/LAN.html)
 
-## [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+## Documents
+
+* [Vicon Tracker 3.4 User Guide ](https://docs.vicon.com/display/Tracker34/PDF+downloads+for+Vicon+Tracker)
+* [Vicon DataStream SDK Developer's Guide](https://docs.vicon.com/spaces/viewspace.action?key=DSSDK111)
 
