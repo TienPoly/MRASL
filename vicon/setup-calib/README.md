@@ -6,7 +6,7 @@ description: This part will show briefly how to calibrate the Vicon system at th
 
 ## Important note
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Always **recalibrate** the Vicon system _every day_ _before starting to work_ or when _something went wrong_!
 {% endhint %}
 
