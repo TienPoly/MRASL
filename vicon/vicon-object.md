@@ -19,15 +19,21 @@ Why is the second marker placement \(4 markers\) not good? Answer: Due to symmet
 
 ![](../.gitbook/assets/vicon_object.png)
 
-Creating an object
+* [ ] You can also change the origin and the orientation of the object as documented [here](https://docs.vicon.com/display/Tracker33/About+the+Objects+tab). 
 
-You can also change the origin and the orientation of the object as documented [here](https://docs.vicon.com/display/Tracker33/About+the+Objects+tab). Vicon uses the standard engineering coordinate system of $x$ axe - forward \(Red\), $y$ axe - right \(Green\), $z$ axe - up \(Blue\).
+![](../.gitbook/assets/vicon_object_duckie3.png)
 
-### Check the Vicon Data
+{% hint style="info" %}
+Vicon uses the standard engineering coordinate system FLU: $$x$$axis - Forward \(Red\), $$y$$axis - Left \(Green\), $$z$$axis -Up \(Blue\).
+{% endhint %}
 
-Finally, you can track your object with Vicon and trace its pose as shown in
+## Tracking
 
-Tracking an object
+Finally, you can track your object with Vicon and trace its pose
+
+![Pose of the Active Wand ](../.gitbook/assets/vicon_tracking.png)
+
+
 
 ## Vicon and ROS <a id="ros-setup status=ready"></a>
 
