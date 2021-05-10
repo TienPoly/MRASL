@@ -45,11 +45,11 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 
 ![](../../.gitbook/assets/vicon_active_wand.jpg)
 
-1. [ ] Use the Active Wand to calibrate the Vicon system: to walk in the flight area doing arc-like motions with it over your head. You must pass in front of all the cameras. Make sure that the wand is always visible by at least two cameras.
+1. [ ] Use the Active Wand to calibrate the Vicon system: walk in front of all the cameras and make sure that the wand is always visible by at least two cameras
 
 {% embed url="https://youtu.be/2JKLDGftnNg" %}
 
-
+* [ ] When every camera reaches 2000 wand counts, the calibration process automatically stops and the program goes into the final calculation process.
 
 
 
