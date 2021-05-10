@@ -45,7 +45,7 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 
 ![](../../.gitbook/assets/vicon_active_wand.jpg)
 
-1. [ ] Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+1. [ ] Use the Active Wand to calibrate the Vicon system: as in the current Take the Active Wand and walk in the flight area doing arc-like motions with it over your head. You must pass in front of all the cameras. Make sure that the wand is always visible by at least two cameras.
 
 {% embed url="https://youtu.be/2JKLDGftnNg" %}
 
