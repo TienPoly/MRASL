@@ -12,9 +12,12 @@ Place at least three [markers](https://www.vicon.com/products/vicon-devices/mark
 Why is the second marker placement \(4 markers\) not good? Answer: Due to symmetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg.
 {% endhint %}
 
-### Create a Vicon object
+## Create a Vicon object
 
-Select the markers that define the object and click `Create` in the Objects tab of the `Vicon Tracker` application \(\).
+* [ ] Place your robot \(with markers\) in the survey area
+* [ ] * [ ] Hold down the `Ctrl` key to select the markers that define the object and click `Create` in the Objects tab of the `Vicon Tracker` application \(\).
+
+![](../.gitbook/assets/vicon_object.png)
 
 Creating an object
 
