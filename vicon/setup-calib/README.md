@@ -6,28 +6,28 @@ description: >-
 
 # Setup and Calibration
 
-**Always recalibrate the Vicon system** _**every day**_ **before starting to work**.
-
 ## Preliminaries
 
-### Is the floor well covered?
+#### Is the floor well covered?
 
 ![Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!](../../.gitbook/assets/voliere.jpg)
 
-### Power on
+#### Power on
 
-* Asus router \(WiFi network MRASL\)
+1. [ ] Asus router \(WiFi network MRASL\)
 
 ![](../../.gitbook/assets/asus_router_front.jpg)
 
-* Netgear switch \(2 TP-Link Wireless Access Points\)
-* 2 Trendnet switches \(Vicon cameras\)
+* [ ] Netgear switch \(2 TP-Link Wireless Access Points\)
+* [ ] 2 Trendnet switches \(Vicon cameras\)
 
 ![](../../.gitbook/assets/poe_switches_back.jpg)
 
-## Vicon setup
+## Calibration
 
-This part will show briefly how to set up a Vicon system.
+{% hint style="info" %}
+**Always recalibrate the Vicon system** _**every day**_ **before starting to work**.
+{% endhint %}
 
 ### Vicon Tracker
 
