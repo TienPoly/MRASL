@@ -1,12 +1,14 @@
 # Using Vicon data
 
-## CSV file
+## 1. CSV Export
 
-## Using Matlab/C/C++/.Net
+Read [here](https://docs.vicon.com/display/Tracker34/Tracker+3.2+new+features+and+functions).
 
-Read the pdf file Vicon\_DataStream\_SDK\_Manual
+## 2. Using Matlab/C/C++/.Net
 
-## Using ROS
+Read the file`Vicon_DataStream_SDK_Manual.pdf` available [here](https://docs.vicon.com/spaces/viewspace.action?key=DSSDK111).
+
+## 3. Using ROS
 
 For all of the following packages use the server IP defined in our [LAN setup page](/Equipment/Networking/LAN.html).
 
