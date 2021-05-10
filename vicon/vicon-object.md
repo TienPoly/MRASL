@@ -9,7 +9,9 @@ Place at least three [markers](https://www.vicon.com/products/vicon-devices/mark
 ![Bad placement of markers](../.gitbook/assets/vicon_bad_object-resized-1024.jpg)
 
 {% hint style="info" %}
-Why is the second marker placement \(4 markers\) not good? Answer: Due to symmetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg.
+Why is the second marker placement \(4 markers\) not good? 
+
+Answer: Due to symmetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg.
 {% endhint %}
 
 ## Create a Vicon object
