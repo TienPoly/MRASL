@@ -19,6 +19,6 @@
 ![](../.gitbook/assets/poe_switches_back.jpg)
 
 {% hint style="warning" %}
-Always **power off** after work!
+**Power off** after work!
 {% endhint %}
 
