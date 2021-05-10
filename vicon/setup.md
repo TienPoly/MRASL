@@ -6,7 +6,7 @@
 
 ## Power on
 
-1. [ ] Asus router \(WiFi network MRASL\)
+1. [ ] Asus router \([WiFi network MRASL](https://mrasl.gitbooks.io/documentation/content/Equipment/Networking/LAN.html)\)
 
 ![](../.gitbook/assets/asus_router_front.jpg)
 
