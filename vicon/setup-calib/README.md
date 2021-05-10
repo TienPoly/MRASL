@@ -15,16 +15,30 @@ Always **recalibrate** the Vicon system _every day_ _before starting to work_ or
 1. [ ] Power on the Vicon PC and launch the _Vicon Tracker 3.4_ application
 2. [ ] Choose the _3D Perspective_ view in the drop-down list and make sure that all the cameras are connected \(green\).
 
-![](../../.gitbook/assets/vicon_tracker_full.png)
+![](../../.gitbook/assets/vicon_connect.png)
 
-## Calibration
+## Camera masks
 
-* [ ] In the _Vicon Tracker_ application, using the drop-down list, navigate to and select `SYSTEM > 12_Cam_Config_Cal` 
+* [ ] Navigate to and select `SYSTEM > 12_Cam_Config_Cal` 
 
-![100 Hz in order to obtain better calibration performances](../../.gitbook/assets/vicon_tracker_100_hz.png)
+![\[100Hz\] to obtain better calibration performances](../../.gitbook/assets/vicon_mask0.png)
 
 1. [ ] Navigate to and select `CALIBRATE > CREATE CAMERA MASKS > START`
-2. [ ] Navigate to and select `CALIBRATE > CALIBRATE CAMERAS > START`
+
+![](../../.gitbook/assets/vicon_mask1_4_3.png)
+
+* [ ] Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP_ 
+
+![](../../.gitbook/assets/vicon_mask2.png)
+
+{% hint style="warning" %}
+All the blue spots do no longer belong to the 3D space being monitored by the Vicon system.  Make sure that your vehicle will not operate in these _dead_ areas.
+{% endhint %}
+
+## **Calibration**
+
+1. [ ] Navigate to and select `CALIBRATE > CALIBRATE CAMERAS > START`
+2. [ ] Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)
 3. [ ] Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
 
 

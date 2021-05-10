@@ -8,7 +8,7 @@
 
 1. [ ] Asus router \([WiFi network MRASL](https://mrasl.gitbooks.io/documentation/content/Equipment/Networking/LAN.html)\)
 
-![](../.gitbook/assets/asus_router_front.jpg)
+![](../.gitbook/assets/asus_router.jpg)
 
 * [ ] Netgear switch \(for 2 TP-Link Wireless Access Points\)
 
@@ -16,7 +16,7 @@
 
 * [ ] 2 Trendnet switches \(Vicon cameras\)
 
-![](../.gitbook/assets/poe_switches_back.jpg)
+![](../.gitbook/assets/trendnet_switches.jpg)
 
 {% hint style="warning" %}
 **Power off** after work!
