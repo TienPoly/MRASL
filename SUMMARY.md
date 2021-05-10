@@ -5,7 +5,8 @@
 ## VICON
 
 * [Overview](vicon/overview.md)
-* [Setup and Calibration](vicon/setup-and-calibration/setup-calib.md)
-  * [Calibration](vicon/setup-and-calibration/calibration.md)
-  * [Usage](vicon/setup-and-calibration/usage.md)
+* [Setup and Calibration](vicon/setup-calib/README.md)
+  * [Calibration](vicon/setup-calib/calibration.md)
+  * [Usage](vicon/setup-calib/usage.md)
 * [Vicon data](vicon/vicon-data.md)
+
