@@ -7,22 +7,29 @@ description: This part will show briefly how to calibrate the Vicon system at th
 ## Important note
 
 {% hint style="warning" %}
-Always **recalibrate** the Vicon system _every day_ _before starting to work_ or when _something went wrong_!
+Always **recalibrate** the Vicon system _every day_ _before starting to work_ or when _something went wrong_ !
 {% endhint %}
 
-## Vicon Tracker 3.4
+## Connection
 
-On the Vicon server \(Windows\), launch the _Vicon Tracker_ application and make sure that all the cameras are connected \(green\).
+1. [ ] Power on the Vicon PC and launch the _Vicon Tracker 3.4_ application
+2. [ ] Choose the _3D Perspective_ view in the drop-down list and make sure that all the cameras are connected \(green\).
 
 ![](../../.gitbook/assets/vicon_tracker_full.png)
 
-### Calibration
+## Calibration
 
-Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+* [ ] In the _Vicon Tracker_ application, using the drop-down list, navigate to and select `SYSTEM > 12_Cam_Config_Cal` 
 
-Vicon calibration Calibration Vicon Active Wand
+![100 Hz in order to obtain better calibration performances](../../.gitbook/assets/vicon_tracker_100_hz.png)
 
-### Set the volume origin
+1. [ ] Navigate to and select `CALIBRATE > CREATE CAMERA MASKS > START`
+2. [ ] Navigate to and select `CALIBRATE > CALIBRATE CAMERAS > START`
+3. [ ] Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+
+
+
+## Set the volume origin
 
 Place the Active Wand at the desired origin and set it in Vicon Tracker
 
