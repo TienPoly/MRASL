@@ -38,8 +38,18 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 ## **Calibration**
 
 1. [ ] Navigate to and select `CALIBRATE > CALIBRATE CAMERAS > START`
-2. [ ] Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)
-3. [ ] Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+
+![](../../.gitbook/assets/vicon_calib0.png)
+
+1. [ ] Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)
+
+![](../../.gitbook/assets/vicon_active_wand.jpg)
+
+1. [ ] Use the Active Wand to calibrate the Vicon system as in the current [Vicon Tracker User Guide](https://docs.Vicon.com/display/Tracker34/Tracker+documentation)
+
+{% embed url="https://youtu.be/2JKLDGftnNg" %}
+
+
 
 
 
