@@ -4,13 +4,13 @@ description: This part will show briefly how to calibrate the Vicon system at th
 
 # Calibration
 
+## Important note
 
-
-{% hint style="warning" %}
-#### Always **recalibrate** the Vicon system _every day_ before starting to work!
+{% hint style="info" %}
+Always **recalibrate** the Vicon system _every day_ before starting to work!
 {% endhint %}
 
-### Vicon Tracker 3.4
+## Vicon Tracker 3.4
 
 On the Vicon server \(Windows\), launch the _Vicon Tracker_ application and make sure that all the cameras are connected \(green\).
 
