@@ -1,4 +1,4 @@
-# Setup
+# Pre-setup
 
 ## Is the floor well covered?
 
