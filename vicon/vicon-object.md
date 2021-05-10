@@ -1,14 +1,16 @@
 # Vicon object
 
-
-
-## Create a Vicon object
-
-### Vicon marker placement
+## Vicon marker placement
 
 Place at least three [markers](https://www.vicon.com/products/vicon-devices/markers-and-suits) on the object that you want to track.
 
-Example of Vicon marker placement for 2D object. Why is the second marker placement \(4 markers\) not good? Answer: Due to symetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg. Good placement of markers Bad placement of markers
+![Good placement of markers](../.gitbook/assets/vicon_good_object-resized-1024.jpg)
+
+![Bad placement of markers](../.gitbook/assets/vicon_bad_object-resized-1024.jpg)
+
+{% hint style="info" %}
+Why is the second marker placement \(4 markers\) not good? Answer: Due to symmetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg.
+{% endhint %}
 
 ### Create a Vicon object
 

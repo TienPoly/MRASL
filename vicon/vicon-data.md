@@ -1,6 +1,6 @@
 # Using Vicon data
 
-## 
+## CSV file
 
 ## Using Matlab/C/C++/.Net
 
