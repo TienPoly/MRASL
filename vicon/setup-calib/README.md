@@ -12,7 +12,7 @@ description: >-
 
 ### Is the floor well covered?
 
-Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!
+![Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!](../../.gitbook/assets/voliere.jpg)
 
 ### Power on
 
