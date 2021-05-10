@@ -15,7 +15,7 @@ Why is the second marker placement \(4 markers\) not good? Answer: Due to symmet
 ## Create a Vicon object
 
 * [ ] Place your robot \(with markers\) in the survey area
-* [ ] * [ ] Hold down the `Ctrl` key to select the markers that define the object and click `Create` in the Objects tab of the `Vicon Tracker` application \(\).
+* [ ] Hold down the `Ctrl` key to select the markers that define the object and click `Create` in the `OBJECTS`tab.
 
 ![](../.gitbook/assets/vicon_object.png)
 
