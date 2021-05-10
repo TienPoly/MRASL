@@ -21,9 +21,6 @@ description: >-
 ![](../../.gitbook/assets/asus_router_front.jpg)
 
 * Netgear switch \(2 TP-Link Wireless Access Points\)
-
-![](../../.gitbook/assets/poe_switches_back.jpg)
-
 * 2 Trendnet switches \(Vicon cameras\)
 
 ![](../../.gitbook/assets/poe_switches_back.jpg)
