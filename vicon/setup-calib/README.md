@@ -41,6 +41,8 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 
 ![](../../.gitbook/assets/vicon_calib0.png)
 
+![](../../.gitbook/assets/vicon_calib1.png)
+
 1. [ ] Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)
 
 ![](../../.gitbook/assets/vicon_active_wand.jpg)
@@ -49,7 +51,11 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 
 {% embed url="https://youtu.be/2JKLDGftnNg" %}
 
-* [ ] When every camera reaches 2000 wand counts, the calibration process automatically stops and the program goes into the final calculation process.
+* [ ] When a camera reaches 2000 wand counts
+
+![](../../.gitbook/assets/vicon_calib2.png)
+
+* [ ] When all cameras reach 2000 wand counts, the calibration process automatically stops and the program goes into the final calculation process.
 
 
 
