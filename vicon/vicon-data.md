@@ -1,61 +1,28 @@
-# Vicon data
+# Using Vicon data
 
-## Create a Vicon object
+## 
 
-### Vicon marker placement
+## Using Matlab/C/C++/.Net
 
-Place at least three [markers](https://www.vicon.com/products/vicon-devices/markers-and-suits) on the object that you want to track.
+Read the pdf file Vicon\_DataStream\_SDK\_Manual
 
-Example of Vicon marker placement for 2D object. Why is the second marker placement \(4 markers\) not good? Answer: Due to symetrical structure, Vicon can not distinguish the head and the tail of the object. The position is always good but the heading angle can be deviated by 180 deg. Good placement of markers Bad placement of markers
+## Using ROS
 
-### Create a Vicon object
+For all of the following packages use the server IP defined in our [LAN setup page](/Equipment/Networking/LAN.html).
 
-Select the markers that define the object and click `Create` in the Objects tab of the `Vicon Tracker` application \(\).
+### ETHZ's Autonomous Systems Lab [VRPN Client](https://github.com/ethz-asl/ros_vrpn_client)
 
-Creating an object
+Same client used in [Dynamic System Identification, and Control for a cost effective open-source VTOL MAV](https://arxiv.org/pdf/1701.08623.pdf). Provides position, orientation, velocity and angular velocity. Connects to the Vicon server through the Virtual Reality Peripheral Network. Data seems to pass through a Luenberger state observer for position and linear velocity estimation and an Extended Kalman Filter for orientation and angular velocity estimation.
 
-You can also change the origin and the orientation of the object as documented [here](https://docs.vicon.com/display/Tracker33/About+the+Objects+tab). Vicon uses the standard engineering coordinate system of $x$ axe - forward \(Red\), $y$ axe - right \(Green\), $z$ axe - up \(Blue\).
+### ETHZ's Autonomous Systems Lab [Vicon Bridge](https://github.com/ethz-asl/vicon_bridge)
 
-### Check the Vicon Data
+Use this if you want unfiltered data directly from the Vicon server. Provides position and orientation as a TF or a `geometry_msgs::TransformStamped`. Can also calibrate the origin of an object.
 
-Finally, you can track your object with Vicon and trace its pose as shown in
+### Kumar Robotics' [motion\_capture\_system](https://github.com/KumarRobotics/motion_capture_system)
 
-Tracking an object
+Runs an EKF to provide position, orientation, velocity and angular velocity. Only 1 parameter has to be provided for noise \(`max_accel`\), can track multiple objects.
 
-## Vicon and ROS <a id="ros-setup status=ready"></a>
+We have our own fork on Github [here](https://github.com/MRASL/motion_capture_system).
 
-### Install ROS interface and dependencies
-
-You can use the ROS interface for [VRPN Client](http://www.cs.unc.edu/Research/vrpn/).
-
-Go to your workspace, clone and build this repo and its dependencies:
-
-```text
-laptop $ cd ![your_ws]/src
-laptop $ git clone https://github.com/MRASL/ros_vrpn_client
-laptop $ git clone https://github.com/ethz-asl/vrpn_catkin
-laptop $ git clone https://github.com/catkin/catkin_simple.git
-laptop $ git clone https://github.com/ethz-asl/glog_catkin.git
-laptop $ cd .. & catkin build
-```
-
-### Publishing Vicon data to the ROS Network
-
-Run the node `vrpn_client` using the launch file `mrasl_vicon_duckiebot`
-
-```text
-laptop $ roslaunch ros_vrpn_client mrasl_vicon_duckiebot.launch object_name:=![vicon_object_name]
-```
-
-This launch file is a copy of the original `asl_vicon.launch`, using for the object `vicon_object_name` and the Vicon server IP 192.168.1.200.
-
-Using `rostopic list`, you can see the following topics from Vicon:
-
-```text
-/duckiebot_razor/vrpn_client/estimated_odometry                                                      /duckiebot_razor/vrpn_client/estimated_transform                                                     
-/duckiebot_razor/vrpn_client/raw_transform                                                           
-/duckiebot_razor/vrpn_client/vicon_intermediate_results                                              
-/rosout                                                                                               
-/rosout_agg
-```
+## 
 
