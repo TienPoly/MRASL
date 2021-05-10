@@ -6,7 +6,16 @@ description: >-
 
 # Setup and Calibration
 
+**Always recalibrate the Vicon system** _**every day**_ **before starting to work**.
+
 ## Preliminaries
+
+The before-you-start-checklist:
+
+* Is the floor well covered? \(Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!\)
+* Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
+
+If you answered YES to all the questions above, you are now free to proceed to the next step.
 
 ## Vicon setup
 
