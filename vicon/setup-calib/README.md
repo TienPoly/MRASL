@@ -26,10 +26,14 @@ description: >-
 
 ![](../../.gitbook/assets/poe_switches_back.jpg)
 
+{% hint style="info" %}
+Always **power off** after work!
+{% endhint %}
+
 ## Calibration
 
-{% hint style="info" %}
-**Always recalibrate the Vicon system** _**every day**_ **before starting to work**.
+{% hint style="warning" %}
+Always **recalibrate** the Vicon system _every day_ before starting to work!
 {% endhint %}
 
 ### Vicon Tracker
