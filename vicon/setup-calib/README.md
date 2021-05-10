@@ -1,8 +1,12 @@
+---
+description: >-
+  This part will show briefly how to set up and calibrate the Vicon system at
+  the MRASL.
+---
+
 # Setup and Calibration
 
-Requires: Vicon motion capture system including \[Vicon Bonita\]\([https://www.Vicon.com/products/archived-products/bonita](https://www.Vicon.com/products/archived-products/bonita) "Vicon Bonita"\) infrared cameras, \[Vicon Active Wand\]\([https://www.Vicon.com/products/Vicon-devices/calibration](https://www.Vicon.com/products/Vicon-devices/calibration) "Vicon Active Wand"\) \\(T-shaped\\), Vicon software installed on a Vicon server and Wifi network. Result: you can publish Vicon data \(ground truth\) of an object to the ROS network.
-
-Vicon system Vicon Bonita camera Vicon area with 12 Bonita cameras
+## Preliminaries
 
 ## Vicon setup
 
