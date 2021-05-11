@@ -34,5 +34,5 @@ Vicon uses the standard engineering coordinate system FLU: $$x$$axis - Forward \
 
 Finally, you can track your object with Vicon and trace its pose
 
-![Pose of the Active Wand ](../.gitbook/assets/vicon_tracking.png)
+![Example: pose of the Active Wand ](../.gitbook/assets/vicon_tracking.png)
 
