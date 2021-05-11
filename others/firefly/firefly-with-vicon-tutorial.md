@@ -1,5 +1,7 @@
 # Firefly with Vicon Tutorial
 
+## Preliminaries
+
 ### Pre-setup
 
 * Simulation: successfull test of your own controller on GAZEBO
@@ -18,7 +20,7 @@
   * Firefly's On-Board Computer \(OBC\)
 * Vicon setup: see our [Vicon page](/Equipment/Vicon/Calibration.md) for more detail.
 
-### Network Setup
+### Network
 
 Remote monitoring and control the Firefly from a distance computer. In this tutorial, the desktop `L5816-18` and the object `firefly_blue` are used.
 
@@ -114,7 +116,7 @@ Verify running nodes
 
 After init the filter, the `/pose_sensor` node has to show a message \(OBC terminal\) as: `initial measurement pos:[ 0.158259 0.0267092 0.754158] orientation: [0.998, 0.00129, 0.025, 0.0552]` and some other messages.
 
-### Running the demos
+## Running the demo
 
 **Before running the controller**
 
