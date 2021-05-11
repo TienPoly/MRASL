@@ -4,6 +4,10 @@ description: This page is under construction.
 
 # Firefly hexarotor UAV
 
+### Overview
+
+![Experimental system architecture](../.gitbook/assets/set_up.png)
+
 ## Preliminaries
 
 ### Pre-setup
