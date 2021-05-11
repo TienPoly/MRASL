@@ -11,10 +11,15 @@
 * [Access to Vicon data](vicon/vicon-data/README.md)
   * [Vicon - ROS](vicon/vicon-data/vicon-ros.md)
 
-## OTHERS
+## Firefly hexarotor UAV
 
-* [Firefly hexarotor UAV](others/firefly.md)
-* [Visual odometry](others/visual-odometry/README.md)
-  * [Traditional VO](others/visual-odometry/traditional-vo.md)
-  * [Deep learning VO](others/visual-odometry/deep-learning-vo.md)
+* [Overview](firefly-hexarotor-uav/overview.md)
+* [Pre-setup](firefly-hexarotor-uav/firefly_setup.md)
+* [ROS environment](firefly-hexarotor-uav/ros-environment.md)
+
+## OTHERS <a id="others-1"></a>
+
+* [Visual odometry](others-1/visual-odometry/README.md)
+  * [Traditional VO](others-1/visual-odometry/traditional-vo.md)
+  * [Deep learning VO](others-1/visual-odometry/deep-learning-vo.md)
 
