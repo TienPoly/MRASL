@@ -4,7 +4,7 @@ description: This page is under construction.
 
 # Vicon - ROS
 
-### Install ROS interface and dependencies
+## Install ROS interface and dependencies
 
 You can use the ROS interface for [VRPN Client](http://www.cs.unc.edu/Research/vrpn/).
 
@@ -19,7 +19,7 @@ laptop $ git clone https://github.com/ethz-asl/glog_catkin.git
 laptop $ cd .. & catkin build
 ```
 
-### Publishing Vicon data to the ROS Network
+## Publishing Vicon data to the ROS Network
 
 Run the node `vrpn_client` using the launch file `mrasl_vicon_duckiebot`
 
@@ -32,7 +32,8 @@ This launch file is a copy of the original `asl_vicon.launch`, using for the obj
 Using `rostopic list`, you can see the following topics from Vicon:
 
 ```text
-/duckiebot_razor/vrpn_client/estimated_odometry                                                      /duckiebot_razor/vrpn_client/estimated_transform                                                     
+/duckiebot_razor/vrpn_client/estimated_odometry                
+/duckiebot_razor/vrpn_client/estimated_transform                                                     
 /duckiebot_razor/vrpn_client/raw_transform                                                           
 /duckiebot_razor/vrpn_client/vicon_intermediate_results                                              
 /rosout                                                                                               
