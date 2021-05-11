@@ -16,6 +16,7 @@
 * [Overview](firefly-hexarotor-uav/overview.md)
 * [Pre-setup](firefly-hexarotor-uav/firefly_setup.md)
 * [MSF filter](firefly-hexarotor-uav/ros-environment.md)
+* [Demo](firefly-hexarotor-uav/demo.md)
 
 ## OTHERS <a id="others-1"></a>
 
