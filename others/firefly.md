@@ -8,7 +8,7 @@ description: This page is under construction.
 
 ### Pre-setup
 
-* Simulation: successful test of your own controller on GAZEBO
+* Simulation: successful test of your own controller on [ROS/Gazebo](http://gazebosim.org/)
 * Packages installed
   * Firefly OBC
     * [asctec\_mav\_framework](https://github.com/MRASL/asctec_mav_framework): framework for data acquisition and position control to be used with the high-level \(HL\) processor of Ascending Technologies helicopters
