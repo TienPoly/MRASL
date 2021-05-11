@@ -11,3 +11,7 @@
 * [Using Vicon data](vicon/vicon-data/README.md)
   * [Vicon - ROS](vicon/vicon-data/vicon-ros.md)
 
+## OTHERS
+
+* [Firefly hexarotor UAV](others/firefly.md)
+
