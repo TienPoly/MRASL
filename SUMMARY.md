@@ -13,8 +13,7 @@
 
 ## OTHERS
 
-* [Firefly hexarotor UAV](others/firefly/README.md)
-  * [Firefly with Vicon Tutorial](others/firefly/firefly-with-vicon-tutorial.md)
+* [Firefly hexarotor UAV](others/firefly.md)
 * [Visual odometry](others/visual-odometry/README.md)
   * [Traditional VO](others/visual-odometry/traditional-vo.md)
   * [Deep learning VO](others/visual-odometry/deep-learning-vo.md)
