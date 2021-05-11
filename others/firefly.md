@@ -8,10 +8,10 @@ description: This page is under construction.
 
 ### Pre-setup
 
-* Simulation: successfull test of your own controller on GAZEBO
+* Simulation: successful test of your own controller on GAZEBO
 * Packages installed
   * Firefly OBC
-    * [asctec\_mav\_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel \(HL\) processor of Ascending Technologies helicopters
+    * [asctec\_mav\_framework](https://github.com/MRASL/asctec_mav_framework): framework for data acquisition and position control to be used with the high-level \(HL\) processor of Ascending Technologies helicopters
     * [MSF](https://github.com/ethz-asl/ethzasl_msf): Modular framework for multi sensor fusion based  on an Extended Kalman Filter
     * Controller: in this tutorial, the [gain-scheduling controller](https://github.com/MRASL/gsft_control) will be tested
   * Remote Computer
@@ -22,13 +22,13 @@ description: This page is under construction.
   * 2 Trendnet switches \(Vicon cameras\)
   * Firefly's FCU \(flight control unit\) with an ASCTEC battery fully charged \(5000 mAh, 11.1V\)
   * Firefly's On-Board Computer \(OBC\)
-* Vicon setup: see our [Vicon page](/Equipment/Vicon/Calibration.md) for more detail.
+* Vicon setup: see our [Vicon page](../vicon/overview.md) for more detail.
 
 ### Network
 
-Remote monitoring and control the Firefly from a distance computer. In this tutorial, the desktop `L5816-18` and the object `firefly_blue` are used.
+Remote monitoring and control the Firefly hexarotor UAV from a distance computer. In this tutorial, the desktop `L5816-18` and the object `firefly_blue` are used.
 
-**IP address**: the remote computer and the firefly have to be connected to the **same network** \(MRASL\). The `firefly_blue` IP is [192.168.1.12](/Equipment/Networking/LAN.md). For this tutorial assume that the remote computer IP is **192.168.1.4**. You can check your IP address by typing `ifconfig` in a terminal.
+**IP address**: the remote computer and the Firefly have to be connected to the **same network** \(MRASL\). The `firefly_blue` IP is [192.168.1.12](/Equipment/Networking/LAN.md). For this tutorial assume that the remote computer IP is **192.168.1.4**. You can check your IP address by typing `ifconfig` in a terminal.
 
 **Remote monitoring and control of the Firefly from a distance computer**
 
@@ -44,7 +44,13 @@ Remote monitoring and control the Firefly from a distance computer. In this tuto
   $ ssh asctec@192.168.1.12
   ```
 
-  This command will open a ssh channel to the `firefly_blue` \(default password is `asctec`\). If you are using the desktop L5816-18, you can also running the permanent _alias_ `$ connect_firefly_blue`.
+  This command will open a ssh channel to the `firefly_blue` \(default password is `asctec`\). 
+
+* If you are using the desktop L5816-18, you can also running the permanent _alias_ 
+
+  ```text
+  $ connect_firefly_blue
+  ```
 
 * We will use the `firefly_blue` as the ROS master, by setting the **ROS\_MASTER\_URI** and **ROS\_IP** variables to the drone's IP. To change the variables we use the following commands in the remote computer terminal
 
@@ -59,7 +65,7 @@ Remote monitoring and control the Firefly from a distance computer. In this tuto
   $ master_firefly_blue
   ```
 
-### Before your fly
+## Before your fly
 
 Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` in each terminal before continue with the following subsections. If you are using the the `firefly_blue` and the desktop L5816-18, you can also running the permanent _alias_ `$ gotien`.
 
@@ -108,7 +114,7 @@ Verify running nodes
   * Filter input from Vicon: topic `/firefly_blue/vrpn_client/raw_transform`, 250Hz
   * Filter input from Firefly: topic `/fcu/imu`, 100Hz
   * Filter output: `msf_core/pose` or `msf_core/odometry`, 100Hz
-* Menu `Plugins/Visualization/Plot`: plot the position, velocity, ...
+* Menu `Plugins/Visualization/Plot`: plot the position, velocity, etc
 * Menu `Plugins/Introspection/Node Graph`
 
 **Init the filter**
