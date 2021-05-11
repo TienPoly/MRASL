@@ -67,7 +67,7 @@ All the blue spots do no longer belong to the 3D space being monitored by the Vi
 
 ![](../.gitbook/assets/vicon_origin.jpg)
 
-* [ ] Navigate to and select `CALIBRATE > SET VOLUME ORIGIN > START`, wait a few seconds and click on _STOP_
+* [ ] Navigate to and select `CALIBRATE > SET VOLUME ORIGIN`, wait a few seconds and click on _STOP_
 
 ![](../.gitbook/assets/vicon_origin2.png)
 

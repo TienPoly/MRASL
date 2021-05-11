@@ -17,7 +17,8 @@ Answer: Due to symmetrical structure, Vicon can not distinguish the head and the
 ## Create a Vicon object
 
 * [ ] Place your robot \(with markers\) in the survey area
-* [ ] Hold down the `Ctrl` key to select the markers that define the object and click `Create` in the `OBJECTS`tab.
+* [ ] Hold down the `Ctrl` key to select the markers that define the object
+* [ ] Click on `Create` in the `OBJECTS`tab
 
 ![](../.gitbook/assets/vicon_object.png)
 
@@ -26,7 +27,7 @@ Answer: Due to symmetrical structure, Vicon can not distinguish the head and the
 ![](../.gitbook/assets/vicon_object_duckie3.png)
 
 {% hint style="info" %}
-Vicon uses the standard engineering coordinate system FLU: $$x$$axis - Forward \(Red\), $$y$$axis - Left \(Green\), $$z$$axis -Up \(Blue\).
+Vicon uses the standard engineering coordinate system FLU: $$x$$axis - Forward \(Red\), $$y$$axis - Left \(Green\), $$z$$axis - Up \(Blue\).
 {% endhint %}
 
 ## Tracking
