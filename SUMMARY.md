@@ -13,6 +13,7 @@
 
 ## OTHERS
 
-* [Firefly hexarotor UAV](others/firefly.md)
+* [Firefly hexarotor UAV](others/firefly/README.md)
+  * [index](others/firefly/untitled.md)
 * [Visual odometry](others/visual-odometry.md)
 
