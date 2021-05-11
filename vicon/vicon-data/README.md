@@ -1,4 +1,4 @@
-# Using Vicon data
+# Vicon data
 
 ## 1. CSV Export
 

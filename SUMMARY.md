@@ -8,7 +8,7 @@
 * [Pre-setup](vicon/setup.md)
 * [Calibration](vicon/setup-calib.md)
 * [Vicon object](vicon/vicon-object.md)
-* [Using Vicon data](vicon/vicon-data/README.md)
+* [Vicon data](vicon/vicon-data/README.md)
   * [Vicon - ROS](vicon/vicon-data/vicon-ros.md)
 
 ## OTHERS
